@@ -50,6 +50,11 @@ nav{
     border: none;
 }
 
+.nav-btn:hover{
+    background-color: tomato;
+}
+
+
 
 /* banner */
 
@@ -131,13 +136,16 @@ nav{
     justify-content: center;
     align-items: center;
    
-  
+}
+
+.banner-button-one button:hover{
+    background-color: tomato;
 }
 
   
 .banner-button-two button{
     border: 1px solid rgba(255, 255, 255, 1);
-     background-color: rgba(70, 145, 101, 1);
+    background: transparent;
     color: rgba(255, 255, 255, 1);
     box-sizing: border-box;
     padding: 12px 16px 12px 16px;
@@ -145,6 +153,10 @@ nav{
     font-weight: 600;
     border-radius: 4px;
     
+}
+
+.banner-button-two button:hover{
+    background-color: tomato;
 }
 
 /* second section */
@@ -263,6 +275,11 @@ font-weight: 700;
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
     border: none;
     margin: 24px;
+    
+}
+
+.fourth-section-btn:hover{
+    background-color:tomato;
 }
 
 .fourth-p{
@@ -282,6 +299,44 @@ font-weight: 700;
     padding: 80px 40px;
     border-radius: 12px;
     gap: 24;
+}
+
+/* footer */
+
+
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.last-part {
+    color:  rgba(250, 250, 250, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+
+
+
+.footer-section{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+    background-color: rgba(0, 25, 49, 1);
+    padding: 120px 120px 30px 120px;
+    gap: 30px;
+    margin-top: 120px;
 }
 
     

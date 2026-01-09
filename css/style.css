@@ -202,6 +202,88 @@ font-weight: 400;
 .section-card p{
  color: var(--#627382, rgba(98, 115, 130, 1));
 }
+
+/* third section */
+
+.third-section img{
+    border-radius:12px;
+}
+
+.brain h6{
+color: #30B868;
+font-size: 16px;
+font-weight: 500;
+}
+
+.brain h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px 0;
+}
+
+.brain p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-top: 16px;
+}
+
+ .checkmark {
+margin-top: 40px;
+}
+
+.third-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 120px;
+}
+
+/* fourth section */
+
+.fourth-section-title h3 {
+font-size: 40px;
+font-weight: 700;
+}
+
+.fourth-section-text p{
+    color: #627382;
+    font-size: 16px;
+    font-weight:400 ;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.fourth-section-btn{
+    background-color:rgba(70, 145, 101, 1);
+    color: #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    margin: 24px;
+}
+
+.fourth-p{
+    color: #627382;
+    font-size:  16px; ;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 1opx;
+}
+
+.fourth-section{
+    background-color: rgba(247, 246, 242, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 80px 40px;
+    border-radius: 12px;
+    gap: 24;
+}
+
     
 
    

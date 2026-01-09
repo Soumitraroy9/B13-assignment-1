@@ -61,7 +61,19 @@ nav{
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+   
   
+   }
+
+   .banner-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 50px;
+    padding: 180px;
+    
+
    }
 
 .banner-label{
@@ -74,22 +86,126 @@ nav{
     line-height: 19px;
     color: rgba(70, 145, 101, 1);
     
+    
 }
 
 .banner-title{
     font-size: 72px;
     font-weight: 700;
     line-height: 84px;
+    color: rgba(255, 255, 255, 1);
     
 }
 
-.banner-title h1{
+ .banner-title h2{
+   color: rgba(255, 255, 255, 1);
+   margin: 5px;
+
+ }
+    
+
+ .banner-title span{
+    color: rgba(48, 184, 104, 1);
+   
+}
+
+.banner-text p{
+    font-size: 18px;
     color: rgba(255, 255, 255, 1);
 }
 
-.banner-title span{
-    color: rgba(48, 184, 104, 1);
+.banner-button{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
 }
+
+.banner-button-one button{
+    background-color: rgba(70, 145, 101, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+   padding: 13px 16px;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+
+  
+.banner-button-two button{
+    border: 1px solid rgba(255, 255, 255, 1);
+     background-color: rgba(70, 145, 101, 1);
+    color: rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    padding: 12px 16px 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    
+}
+
+/* second section */
+
+.second-section{
+    margin: 50px auto;
+}
+
+.section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    gap: 16px;
+}
+.section-text h2 {
+font-size: 48px;
+font-weight: 700;
+}
+.section-text p {
+    font-size: 16px;
+font-weight: 400; 
+}
+
+.section-card-parent{
+    display: flex;
+    gap: 24px;
+}
+
+.section-card{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.section-card img{
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+.section-card h2{
+    margin: 16px;
+}
+.section-card p{
+ color: var(--#627382, rgba(98, 115, 130, 1));
+}
+    
+
+   
+
 
 
 
